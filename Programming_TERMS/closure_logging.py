@@ -42,6 +42,12 @@ def logger(func):
 @logger
 def mul(a, b):
     return a*b
+@logger
+def sum(a, b):
+    return a+b
 
 
 mul(12, 4)
+sum(10, 5)
+
+logg = logging.basicConfig(filename="myf.log", )

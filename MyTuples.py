@@ -1,3 +1,5 @@
+import copy
+
 coordinates = (10,20)
 x, y = coordinates   # Unpacking tuples
 
@@ -20,8 +22,10 @@ print(new_courses)
 courses_tuple = ('History', 'Art', 'CompSci', 'English')
 new_courses_tuple = courses_tuple
 print(courses_tuple)
-print(new_courses_tuple)
+print(new_courses_tuple[0])
 # courses_tuple[0] = 'Civics' #Not allowed
+
+
 
 
 

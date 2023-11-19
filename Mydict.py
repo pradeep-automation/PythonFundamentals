@@ -1,11 +1,13 @@
-student = {'name': 'Pradeep', 'age': 33, 'class': 'High School', 'Subjects': ['History', 'Civics']}
+student = {'name': 'Pradeep', 'age': 33, 'class': 'High School',
+           'Subjects': ['History', 'Civics']}
 
-
-# student.popitem()
-# student.pop("age")
-# new = (1, 3, 5)
-new_student = dict.fromkeys([])
+print(student.popitem())
+student.pop("age")
+print(print(student))
+new = (1, 3, 5)
+new_student = dict.fromkeys(new)
 print(new_student)
+max()
 
 # print('Student name is------------>', student['name'])
 # print(student['Gender'])    # Won't work when Key is not present in the dictionary and will give error.
